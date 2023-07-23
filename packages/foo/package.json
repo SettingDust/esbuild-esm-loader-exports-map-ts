@@ -1,0 +1,17 @@
+{
+  "name": "@esbuild-exports-map-ts/foo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@esbuild-exports-map-ts/bar": "link:..\\bar",
+    "@esbuild-exports-map-ts/exports-map": "link:..\\exports-map"
+  }
+}

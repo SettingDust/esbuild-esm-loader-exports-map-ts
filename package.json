@@ -1,0 +1,17 @@
+{
+  "name": "esbuild-exports-map-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --loader @esbuild-kit/esm-loader ./packages/foo/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@esbuild-kit/esm-loader": "link:E:/javascript/esm-loader",
+    "esbuild": "^0.18.15"
+  }
+}
