@@ -5,13 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node --loader @esbuild-kit/esm-loader ./packages/foo/index.ts"
+    "start:esbuild-kit": "node --loader @esbuild-kit/esm-loader ./packages/foo/index.ts",
+    "start:node-loaders": "node --loader @node-loaders/esbuild ./packages/foo/index.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@esbuild-kit/esm-loader": "link:E:/javascript/esm-loader",
+    "@esbuild-kit/esm-loader": "2.5.5",
+    "@node-loaders/esbuild": "^1.0.2",
     "esbuild": "^0.18.15"
   }
 }
